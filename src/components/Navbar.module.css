@@ -1,0 +1,35 @@
+.container {
+    height: 8.80vh;
+    /* 80 px */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #60686F
+}
+
+.container img {
+    background-color: aqua;
+    width: 6.222vh;
+    /* 56px */
+    height: 2.667vh;
+    /* 24px */
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.navbarleft ul,
+.navbarright ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navbarleft li :hover {
+    color: white;
+    cursor: pointer;
+}
