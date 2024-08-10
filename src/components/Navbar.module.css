@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #60686F
+    color: white;
 }
 
 .container img {
@@ -28,8 +28,15 @@
     list-style: none;
     gap: 15px;
 }
+.navbarleft li,.navbarright li{
+    transition:0.4s all ease;
+}
 
-.navbarleft li :hover {
-    color: white;
+.navbarleft li:hover,.navbarright li:hover {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
     cursor: pointer;
+    transition:0.3s all ease;
 }
